@@ -1,0 +1,4 @@
+TODOs:
+- create a favicon
+- create a logo
+- 
