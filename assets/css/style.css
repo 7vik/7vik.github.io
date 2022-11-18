@@ -30,7 +30,8 @@
   --foreground-secondary: hsl(216, 15%, 52%);
   --foreground-tertiary: hsl(214, 20%, 69%);
 
-  --accent: hsl(229, 76%, 66%);
+  /* --accent: hsl(229, 76%, 66%); */
+  --accent: hsl(276, 47%, 52%);
 
 }
 
@@ -158,12 +159,12 @@ html {
 
 .h1 {
   font-size: var(--fs-1);
-  font-weight: 900;
+  font-weight: 100;
 }
 
 .h2 {
   font-size: var(--fs-2);
-  font-weight: 700;
+  font-weight: 70;
 }
 
 .h3 {
