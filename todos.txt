@@ -1,12 +1,10 @@
 TODOs:
 - create a favicon
-- improve the logo
-- Add 50 things
 - fix the load more button
 - fix the categories button
+- fix license hyperlink
 - improve the directory structure
-- add payments link
-- add about me page
+- verify payments link
 - link research to google scholar (and then personal research page)
 - create abstract post rendering page
 - add current stuff
