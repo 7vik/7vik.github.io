@@ -1,29 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<link rel="stylesheet" href="../../assets/css/style.min.css">
+<title>Alice</title>
+<body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>7vik</title>
+<link rel="shortcut icon" href="../../assets/images/horse.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/horse.png" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.min.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
-</head>
 
 <body class="light-theme">
 
@@ -37,7 +26,7 @@
 
       <nav class="navbar">
 
-        <a href="#">
+        <a href="index.html">
           <img src="./assets/images/logo.png" alt="Devblog's logo" width="150" height="40" class="logo-light">
           <img src="./assets/images/logo.png" alt="Devblog's logo" width="150" height="40" class="logo-dark">
         </a>
@@ -96,7 +85,7 @@
               </li>
 
               <li class="nav-item">
-                <a href="about.html" class="nav-link">About Me</a>
+                <a href="#" class="nav-link">About Me</a>
               </li>
 
               <li class="nav-item">
@@ -151,27 +140,34 @@
         <div class="left">
 
           <h1 class="h1">
-            Hi, I'm <b>Satvik&nbsp;Golechha</b>.
-            <br>Welcome!
+            <br>
+            Payments<b></b>
+            <br><br><br
           </h1>
 
           <p class="h3">
-            This is a collection of all the things I write. Everything here is free and under the CC-A-NC-SA 4.0 International license.
+            Everything on this website is available for free, and it always will be, to keep entertainment and education free for everyone.
           </p>
 
           <p class="h3">
-            I hope you like it.
+            However, it takes a lot of time and effort to create all of this. Thus, if you decide to pay, that helps me a lot.
           </p>
 
           <p class="h3">
-            Please consider paying. I contribute 90% of it to free good-quality education in India and the rest allows me more time to write.
+            I contribute 90% what what you pay to help improve education in India. Currently, I'm starting with schools in villages. As and when something substantial is achieved, I will update on the Education page of this website.
           </p>
 
-          <div class="btn-group">
-            <a href="about.html" class="btn btn-primary">About Me</a>
-            <a href="pay.html" class="btn btn-secondary">Pay</a>
-            <a href="#" class="btn btn-secondary">Research</a>
-          </div>
+          <p class="h3">
+            Lastly, please share whatever you like with everyone. I rely completely on word of mouth.
+          </p>
+
+          <p class="h3">
+            If you're in India, please use the following to make UPI payments. If you're not, please contact me directly.
+          </p>
+
+          <a href="upi://pay?pa=9783210344@upi&pn=Satvik%20Golechha&cu=INR">
+            <img src="./assets/images/upiqr.svg" alt="Payment Link" style="width:150px;height:150px;">
+            </a>
 
         </div>
 
@@ -201,123 +197,9 @@
         <!--
           - BLOG SECTION
         -->
-
-        <div class="blog">
-
-          <h2 class="h2">Reverse Chronologically:</h2>
-
-          <div class="blog-card-group">
-
-            <div class="blog-card">
-
-              <div class="blog-card-banner">
-                <img src="./assets/images/alice.webp" alt="alice"
-                  width="250" class="blog-banner-img">
-              </div>
-
-              <div class="blog-content-wrapper">
-
-                <button class="blog-topic text-tiny">Book</button>
-
-                <h3>
-                  <a href="./content/alice/index.html" class="h3">
-                    Alice's Adventures in Wonderland: An AI-fi Parody
-                  </a>
-                </h3>
-
-                <p class="blog-text">
-                  Alice is sitting on the riverside with her sister, idling on her laptop when she looks at a White Rabbit with pink eyes. She follows it and falls into a neural network.
-                </p>
-
-                <div class="wrapper-flex">
-
-                  <div class="profile-wrapper">
-                    <img src="./assets/images/horse.png" alt="Satvik Golechha" width="50">
-                  </div>
-
-                  <div class="wrapper">
-                    <a href="#" class="h4">Satvik Golechha</a>
-
-                    <p class="text-sm">
-                      <time datetime="2022-11-18">Nov 18, 2022</time>
-                      <span class="separator"></span>
-                      <ion-icon name="time-outline"></ion-icon>
-                      <time datetime="PT3M">7 hours</time>
-                    </p>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
-          </div>
-            <button class="btn load-more">Load More</button>
-
-        </div>
-
-
-
-
-
         <!--
           - ASIDE
         -->
-
-        <div class="aside">
-
-          <div class="topics">
-
-            <h2 class="h2">Category</h2>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="server-outline"></ion-icon>
-              </div>
-
-              <p>Books</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="accessibility-outline"></ion-icon>
-              </div>
-
-              <p>Poetry</p>
-            </a>
-
-            <a href="#" class="topic-btn">
-              <div class="icon-box">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
-
-              <p>Screenplays</p>
-            </a>
-
-          </div>
-
-          <div class="newsletter">
-
-            <h2 class="h2">Subscribe</h2>
-
-            <div class="wrapper">
-
-              <p>
-                Subscribe to get an e-mail whenever I publish something new. I promise I'll never spam your inbox or share your e-mail address.
-              </p>
-
-              <form action="#">
-                <input type="email" name="email" placeholder="Email Address" required>
-
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-              </form>
-
-            </div>
-
-          </div>
-
-        </div>
-
       </div>
 
     </div>
@@ -416,5 +298,4 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
