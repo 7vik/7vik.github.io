@@ -7,5 +7,7 @@ TODOs:
 - verify payments link
 - link research to google scholar (and then personal research page)
 - create abstract post rendering page
+- check analytics
 - add current stuff
 - write more!
+- activate payments
