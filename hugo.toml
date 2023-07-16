@@ -1,0 +1,5 @@
+baseURL = 'https://7vik.github.io/'
+languageCode = 'en-us'
+title = '7vik'
+builddrafts = true
+theme = 'ananke'
