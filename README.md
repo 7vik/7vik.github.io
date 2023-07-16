@@ -1,1 +1,0 @@
-# 7vik.github.io
